@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>5th Semester — Class Videos</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand"><span class="pick"></span>5TH SEM</div>
+    <nav class="site-nav">
+      <a href="index.html" class="active">Classes</a>
+      <a href="notes.html">Notes</a>
+      <a href="about.html">About</a>
+    </nav>
+  </div>
+</header>
+<div class="fret-line"></div>
+
+<main>
+  <section class="hero">
+    <span class="eyebrow">Recorded Lessons</span>
+    <h1>Every class videos, <em>learn at your own pace</em></h1>
+    <p>Pick a subject → open a module → play the video.</p>
+  </section>
+
+  <div class="toolbar">
+    <span class="count-tag" id="countTag">Loading…</span>
+    <div class="density-toggle" aria-label="Card size">
+      <button type="button" data-density="roomy" title="Large cards">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="7" rx="1"/><rect x="4" y="13" width="16" height="7" rx="1"/></svg>
+      </button>
+      <button type="button" data-density="default" class="active" title="Medium cards">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="8" height="7" rx="1"/><rect x="13" y="4" width="8" height="7" rx="1"/><rect x="3" y="13" width="8" height="7" rx="1"/><rect x="13" y="13" width="8" height="7" rx="1"/></svg>
+      </button>
+      <button type="button" data-density="dense" title="Small cards">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="5" height="5" rx="1"/><rect x="10" y="3" width="5" height="5" rx="1"/><rect x="17" y="3" width="5" height="5" rx="1"/><rect x="3" y="10" width="5" height="5" rx="1"/><rect x="10" y="10" width="5" height="5" rx="1"/><rect x="17" y="10" width="5" height="5" rx="1"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <div class="subject-list" id="subjectList"></div>
+</main>
+
+<footer>5th sem all subject Classes — recordings for enrolled students</footer>
+
+<div class="player-overlay" id="playerOverlay">
+  <div class="player-box">
+    <div class="player-top">
+      <h3 id="playerTitle">Video Title</h3>
+      <button class="close-player" id="closePlayer" aria-label="Close">✕</button>
+    </div>
+    <video id="playerVideo" controls playsinline></video>
+  </div>
+</div>
+
+<script src="videos-data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

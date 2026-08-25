@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Notes — 5th Semester</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="notes-bg">
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand"><span class="pick"></span>5TH SEM</div>
+    <nav class="site-nav">
+      <a href="index.html">Classes</a>
+      <a href="notes.html" class="active">Notes</a>
+      <a href="about.html">About</a>
+    </nav>
+  </div>
+</header>
+<div class="fret-line"></div>
+
+<main>
+  <section class="hero">
+    <span class="eyebrow">PDF Notes</span>
+    <h1>Every module, <em>one PDF away</em></h1>
+    <p>Pick a subject → open a module → view or download the notes PDF.</p>
+  </section>
+
+  <div class="toolbar">
+    <span class="count-tag" id="notesCountTag">Loading…</span>
+    <div class="density-toggle" aria-label="Card size">
+      <button type="button" data-density="roomy" title="Large cards">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="7" rx="1"/><rect x="4" y="13" width="16" height="7" rx="1"/></svg>
+      </button>
+      <button type="button" data-density="default" class="active" title="Medium cards">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="8" height="7" rx="1"/><rect x="13" y="4" width="8" height="7" rx="1"/><rect x="3" y="13" width="8" height="7" rx="1"/><rect x="13" y="13" width="8" height="7" rx="1"/></svg>
+      </button>
+      <button type="button" data-density="dense" title="Small cards">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="5" height="5" rx="1"/><rect x="10" y="3" width="5" height="5" rx="1"/><rect x="17" y="3" width="5" height="5" rx="1"/><rect x="3" y="10" width="5" height="5" rx="1"/><rect x="10" y="10" width="5" height="5" rx="1"/><rect x="17" y="10" width="5" height="5" rx="1"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <div class="subject-list" id="notesSubjectList"></div>
+</main>
+
+<footer>5th sem all subject Notes — PDFs for enrolled students</footer>
+
+<script src="notes-data.js"></script>
+<script src="notes-script.js"></script>
+</body>
+</html>
