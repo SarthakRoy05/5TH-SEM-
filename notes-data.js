@@ -48,5 +48,19 @@ const NOTES_SUBJECTS = [
         ]
       }
     ]
+  },
+{
+    id: "Finance",
+    title: "Finance",
+    tagline: "Finance Management",
+    topics: [
+      {
+        id: "Finance",
+        title: "Module 1_long Notes",
+        notes: [
+          { title: "Module 1_Long Notes", file: "notes/finance/finance_module1.pdf" }
+        ]
+      }
+    ]
   }
 ];
