@@ -32,6 +32,13 @@ const NOTES_SUBJECTS = [
         notes: [
           { title: "Module 3 short Notes", file: "notes/java/Java_Module3.pdf" }
         ]
+      },
+      {
+        id: "java-1",
+        title: "Module 4_Short Notes",
+        notes: [
+          { title: "Module 4 short Notes", file: "notes/java/Java_Module4.pdf" }
+        ]
       }
     ]
   },
@@ -46,10 +53,34 @@ const NOTES_SUBJECTS = [
         notes: [
           { title: "Module 1_Short Notes", file: "notes/php/PHP_Module 1.pdf" }
         ]
+      },
+      {
+        id: "php-1",
+        title: "Module 2_Short Notes",
+        notes: [
+          { title: "Module 2_Short Notes", file: "notes/php/PHP_Module 2.pdf" }
+        ]
       }
     ]
   },
-{
+
+  {
+    id: "Entrepreneurship",
+    title: "Entrepreneurship",
+    tagline: "Entrepreneurship Management",
+    topics: [
+      {
+        id: "Entrepreneurship",
+        title: "Module 1_long Notes",
+        notes: [
+          { title: "Module 1_Long Notes", file: "notes/entrepreneurship/M1.pdf" }
+        ]
+      }
+    ]
+  },
+  
+  {
+    id: "Marketing",
     id: "Finance",
     title: "Finance",
     tagline: "Finance Management",

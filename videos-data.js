@@ -54,17 +54,17 @@ const SUBJECTS = [
           },
         ]
       },
-      // {
-      //   id: "strum-2",
-      //   title: "MODULE 2",
-      //   videos: [
-          // {
-          //   title: "Class 2",
-          //   duration: "1h 15m",
-          //   file: "videos/strumming/module2.mp4"
-          // },
-      //   ]
-      // }
+      {
+        id: "strum-2",
+        title: "MODULE 2",
+        videos: [
+          {
+            title: "Class 2",
+            duration: "1h 15m",
+            file: "videos/strumming/php_module2.mp4"
+          },
+        ]
+      }
     ]
   },
 
