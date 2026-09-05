@@ -28,12 +28,25 @@ const SUBJECTS = [
       },
       {
         id: "basics-2",
-        title: "MODULE 3",
+        title: "Class 3",
+        tagline: "Java program practice -I",
         videos: [
           {
             title: "Class 3",
             duration: "1h 10m",
-            file: "videos/basics/module3.mp4"
+            file: "videos/basics/class3.mp4"
+          },
+        ]
+      },
+      {
+        id: "basics-2",
+        title: "Class 4",
+        tagline: "OOPS concept Unit 3,4,6",
+        videos: [
+          {
+            title: "Class 3",
+            duration: "1h 10m",
+            file: "videos/basics/class4.mp4"
           },
         ]
       }
@@ -83,6 +96,17 @@ const SUBJECTS = [
           },
         ]
       },
+      {
+        id: "songs-1",
+        title: "MODULE 1",
+        videos: [
+          {
+            title: "Class 2",
+            duration: "1h 10m",
+            file: "videos/songs/class2.mp4"
+          },
+        ]
+      }
   ] 
 },
 
@@ -103,12 +127,12 @@ const SUBJECTS = [
       },
       {
         id: "entreprenuer-2",
-        title: "MODULE 2",
+        title: "MODULE 1",
         videos: [
           {
             title: "Class 2",
             duration: "1h 10m",
-            file: "videos/entreprenuer/module2.mp4"
+            file: "videos/entreprenuer/class2.mp4"
           },
         ]
       },
