@@ -29,10 +29,9 @@ const SUBJECTS = [
       {
         id: "basics-2",
         title: "Class 3",
-        tagline: "Java program practice -I",
         videos: [
           {
-            title: "Class 3",
+            title: "Class 3__Java program practice -I",
             duration: "1h 10m",
             file: "videos/basics/class3.mp4"
           },
@@ -41,10 +40,9 @@ const SUBJECTS = [
       {
         id: "basics-2",
         title: "Class 4",
-        tagline: "OOPS concept Unit 3,4,6",
         videos: [
           {
-            title: "Class 3",
+            title: "Class 4_OOPS concept Unit 3,4,6",
             duration: "1h 10m",
             file: "videos/basics/class4.mp4"
           },
