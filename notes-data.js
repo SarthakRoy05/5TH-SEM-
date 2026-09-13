@@ -30,14 +30,14 @@ const NOTES_SUBJECTS = [
         id: "java-1",
         title: "Module 3_Short Notes",
         notes: [
-          { title: "Module 3 short Notes", file: "notes/java/Java_Module3.pdf" }
+          { title: "Module 3 short Notes", file: "notes/java/Module3.pdf" }
         ]
       },
       {
         id: "java-1",
         title: "Module 4_Short Notes",
         notes: [
-          { title: "Module 4 short Notes", file: "notes/java/Java_Module4.pdf" }
+          { title: "Module 4 short Notes", file: "notes/java/Module4.pdf" }
         ]
       }
     ]
@@ -56,16 +56,16 @@ const NOTES_SUBJECTS = [
       },
       {
         id: "php-1",
-        title: "Module 2_Short Notes",
+        title: "Module 2_part1_Short Notes",
         notes: [
-          { title: "Module 2_Short Notes", file: "notes/php/PHP_Module 2_part1.pdf" }
+          { title: "Module 2_part1_Short Notes", file: "notes/php/PHP_Module 2_part1.pdf" }
         ]
       },
       {
         id: "php-1",
-        title: "Module 2_Short Notes",
+        title: "Module 2_part2_Short Notes",
         notes: [
-          { title: "Module 2_Short Notes", file: "notes/php/PHP_Module 2_part2.pdf" }
+          { title: "Module 2_part2_Short Notes", file: "notes/php/PHP_Module 2_part2.pdf" }
         ]
       },
       {
