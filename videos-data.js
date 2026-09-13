@@ -134,7 +134,7 @@ const SUBJECTS = [
           {
             title: "Class 4",
             duration: "1h 10m",
-            file: "videos/songs/clas4.mp4"
+            file: "videos/songs/class4.mp4"
           },
         ]
       }
