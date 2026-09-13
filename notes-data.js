@@ -58,7 +58,14 @@ const NOTES_SUBJECTS = [
         id: "php-1",
         title: "Module 2_Short Notes",
         notes: [
-          { title: "Module 2_Short Notes", file: "notes/php/PHP_Module 2.pdf" }
+          { title: "Module 2_Short Notes", file: "notes/php/PHP_Module 2_part1.pdf" }
+        ]
+      },
+      {
+        id: "php-1",
+        title: "Module 2_Short Notes",
+        notes: [
+          { title: "Module 2_Short Notes", file: "notes/php/PHP_Module 2_part2.pdf" }
         ]
       },
       {

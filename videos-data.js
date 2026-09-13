@@ -72,17 +72,28 @@ const SUBJECTS = [
           {
             title: "Class 2",
             duration: "1h 15m",
-            file: "videos/strumming/php_module2.mp4"
+            file: "videos/strumming/php_module2_part1.mp4"
+          },
+        ]
+      },
+      {
+        id: "strum-2",
+        title: "MODULE 2",
+        videos: [
+          {
+            title: "Class 3",
+            duration: "1h 15m",
+            file: "videos/strumming/php_module2_part2.mp4"
           },
         ]
       }
     ]
   },
 
-{
+  {
     id: "songs",
     title: "FINANCE",
-  topics: [
+    topics: [
       {
         id: "songs-1",
         title: "MODULE 1",
@@ -115,14 +126,25 @@ const SUBJECTS = [
             file: "videos/songs/class3.mp4"
           },
         ]
+      },
+      {
+        id: "songs-1",
+        title: "MODULE 1",
+        videos: [
+          {
+            title: "Class 4",
+            duration: "1h 10m",
+            file: "videos/songs/clas4.mp4"
+          },
+        ]
       }
-  ] 
-},
+    ]
+  },
 
-{
+  {
     id: "entreprenuer",
     title: "Entreprenuership",
-  topics: [
+    topics: [
       {
         id: "entreprenuer-1",
         title: "MODULE 1",
@@ -167,7 +189,7 @@ const SUBJECTS = [
           },
         ]
       },
-  ] 
-}
+    ]
+  }
 
 ]
