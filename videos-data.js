@@ -15,6 +15,7 @@ const SUBJECTS = [
           },
         ]
       },
+
       {
         id: "basics-2",
         title: "MODULE 2",
@@ -26,6 +27,7 @@ const SUBJECTS = [
           },
         ]
       },
+
       {
         id: "basics-2",
         title: "Class 3",
@@ -50,6 +52,7 @@ const SUBJECTS = [
       }
     ]
   },
+
   {
     id: "strumming",
     title: "PHP",
@@ -77,13 +80,24 @@ const SUBJECTS = [
         ]
       },
       {
-        id: "strum-2",
+        id: "strum-3",
         title: "MODULE 2",
         videos: [
           {
             title: "Class 3",
             duration: "1h 15m",
             file: "videos/strumming/php_module2_part2.mp4"
+          },
+        ]
+      },
+      {
+        id: "strum-4",
+        title: "MODULE 3",
+        videos: [
+          {
+            title: "Class 4",
+            duration: "1h 15m",
+            file: "videos/strumming/php_module3.mp4"
           },
         ]
       }
@@ -96,48 +110,60 @@ const SUBJECTS = [
     topics: [
       {
         id: "songs-1",
-        title: "MODULE 1",
+        title: "Chapter 1",
         videos: [
           {
             title: "Class 1",
             duration: "1h 10m",
             file: "videos/songs/module1.mp4"
-          },
+          }
         ]
       },
+
       {
         id: "songs-1",
-        title: "MODULE 1",
+        title: "Chapter 1",
         videos: [
           {
             title: "Class 2",
             duration: "1h 10m",
             file: "videos/songs/class2.mp4"
-          },
+          }
         ]
       },
       {
         id: "songs-1",
-        title: "MODULE 1",
+        title: "Chapter 1",
         videos: [
           {
             title: "Class 3",
             duration: "1h 10m",
             file: "videos/songs/class3.mp4"
-          },
+          }
         ]
       },
       {
         id: "songs-1",
-        title: "MODULE 1",
+        title: "Chapter 1_Numerical_part1",
         videos: [
           {
             title: "Class 4",
             duration: "1h 10m",
             file: "videos/songs/class4.mp4"
-          },
+          }
         ]
-      }
+      },
+      {
+        id: "songs-1",
+        title: "Chapter 1_Numerical_part2",
+        videos: [
+          {
+            title: "Class 5",
+            duration: "1h 10m",
+            file: "videos/songs/class5.mp4"
+          }
+        ]
+      },
     ]
   },
 
