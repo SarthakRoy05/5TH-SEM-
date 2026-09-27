@@ -81,6 +81,20 @@ const NOTES_SUBJECTS = [
         notes: [
           { title: "Module 2_Long Notes", file: "notes/php/PHP_M2.pdf" }
         ]
+      },
+      {
+        id: "php-1",
+        title: "Module 3_Short Notes",
+        notes: [
+          { title: "Module 3_Short Notes", file: "notes/php/PHP_Module3.pdf" }
+        ]
+      },
+      {
+        id: "php-1",
+        title: "Module 4_Short Notes",
+        notes: [
+          { title: "Module 4_Short Notes", file: "notes/php/PHP_Module4.pdf" }
+        ]
       }
     ]
   },
@@ -111,6 +125,13 @@ const NOTES_SUBJECTS = [
         title: "Module 1_long Notes",
         notes: [
           { title: "Module 1_Long Notes", file: "notes/finance/finance_module1.pdf" }
+        ]
+      },
+      {
+        id: "Finance",
+        title: "Module 1_Short Notes",
+        notes: [
+          { title: "Module 1_Short Notes", file: "notes/finance/finance_class_chapter1.pdf" }
         ]
       }
     ]

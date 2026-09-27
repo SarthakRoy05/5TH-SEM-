@@ -49,6 +49,17 @@ const SUBJECTS = [
             file: "videos/basics/class4.mp4"
           },
         ]
+      },
+      {
+        id: "basics-5",
+        title: "Class 5",
+        videos: [
+          {
+            title: "Class 5_polyorphism,Interfaces,Abstract class",
+            duration: "1h 10m",
+            file: "videos/basics/class5.mp4"
+          },
+        ]
       }
     ]
   },
@@ -98,6 +109,17 @@ const SUBJECTS = [
             title: "Class 4",
             duration: "1h 15m",
             file: "videos/strumming/php_module3.mp4"
+          },
+        ]
+      },
+      {
+        id: "strum-4",
+        title: "MODULE 4",
+        videos: [
+          {
+            title: "Class 5",
+            duration: "1h 15m",
+            file: "videos/strumming/php_module4.mp4"
           },
         ]
       }
@@ -161,6 +183,28 @@ const SUBJECTS = [
             title: "Class 5",
             duration: "1h 10m",
             file: "videos/songs/class5.mp4"
+          }
+        ]
+      },
+      {
+        id: "songs-1",
+        title: "Chapter 1_Numerical_part3",
+        videos: [
+          {
+            title: "Class 6",
+            duration: "1h 10m",
+            file: "videos/songs/class6.mp4"
+          }
+        ]
+      },
+      {
+        id: "songs-1",
+        title: "Chapter 2",
+        videos: [
+          {
+            title: "Class 7",
+            duration: "1h 10m",
+            file: "videos/songs/class7.mp4"
           }
         ]
       },
