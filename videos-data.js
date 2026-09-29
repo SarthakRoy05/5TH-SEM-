@@ -29,7 +29,7 @@ const SUBJECTS = [
       },
 
       {
-        id: "basics-2",
+        id: "basics-3",
         title: "Class 3",
         videos: [
           {
@@ -40,11 +40,11 @@ const SUBJECTS = [
         ]
       },
       {
-        id: "basics-2",
+        id: "basics-4",
         title: "Class 4",
         videos: [
           {
-            title: "Class 4_OOPS concept Unit 3,4,6",
+            title: "Class 4_OOPS overview, Encapsulation & Inheritance_Unit 3,4,6_part1",
             duration: "1h 10m",
             file: "videos/basics/class4.mp4"
           },
@@ -55,9 +55,20 @@ const SUBJECTS = [
         title: "Class 5",
         videos: [
           {
-            title: "Class 5_polyorphism,Interfaces,Abstract class",
+            title: "Class 5_polyorphism,Interfaces,Abstract class_Unit 3,4,6_part2",
             duration: "1h 10m",
             file: "videos/basics/class5.mp4"
+          },
+        ]
+      },
+      {
+        id: "basics-6",
+        title: "Class 6",
+        videos: [
+          {
+            title: "Class6_Constructor_Unit 3,4,6_part3",
+            duration: "1h 10m",
+            file: "videos/basics/class6.mp4"
           },
         ]
       }
